@@ -24,6 +24,9 @@
           "sources": [
             "src/keyboard-layout-manager-windows.cc",
           ],
+          'xcode_settings': {
+            'CLANG_CXX_LANGUAGE_STANDARD': 'c++17'
+          },
           'msvs_settings': {
             'VCCLCompilerTool': {
               'ExceptionHandling': 1, # /EHsc
